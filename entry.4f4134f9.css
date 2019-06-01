@@ -1,0 +1,116 @@
+#player[data-v-f8d851]
+{
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 1000px;
+}
+#music[data-v-f8d851]
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#panel[data-v-f8d851]
+{
+    height: auto;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+.background[data-v-f8d851]
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: .5;
+    z-index: -1;
+}
+#music_info[data-v-f8d851]
+{
+    padding-top: 30px;
+}
+#music_name[data-v-f8d851]
+{
+    color: white;
+}
+#music_canvas[data-v-f8d851]
+{
+    flex-grow: 1;
+}
+#music_controls[data-v-f8d851]
+{
+    margin: 2rem 0;
+}
+.link[data-v-e79389]
+{
+    font-size: 1.5rem;
+}
+.content-wrapper[data-v-e79389]
+{
+    position: relative;
+    z-index: 1;
+}
+.background[data-v-e79389]
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: .5;
+}
+#content[data-v-e79389]
+{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.content-inner[data-v-e79389]
+{
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+    z-index: 2;
+}
+#title[data-v-e79389]
+{
+    color: #cccccc;
+}
+a[data-v-e79389]:link,
+a[data-v-e79389]:active,
+a[data-v-e79389]:visited,
+a[data-v-e79389]:hover
+{
+    color: #cccccc
+}
+html,
+body
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}#root[data-v-977b07]
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: no-repeat fixed;
+    background-size: cover;
+}
